@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <!-- Cute Teddy Bear Waving -->
+  <defs>
+    <radialGradient id="twave" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#EED5B7"/>
+      <stop offset="100%" stop-color="#C99E78"/>
+    </radialGradient>
+    <radialGradient id="tinner" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFD6DE"/>
+      <stop offset="100%" stop-color="#F5A3B7"/>
+    </radialGradient>
+  </defs>
+  <!-- Left Ear -->
+  <circle cx="36" cy="38" r="13" fill="url(#twave)"/>
+  <circle cx="36" cy="38" r="7" fill="url(#tinner)"/>
+  <!-- Right Ear -->
+  <circle cx="84" cy="38" r="13" fill="url(#twave)"/>
+  <circle cx="84" cy="38" r="7" fill="url(#tinner)"/>
+  <!-- Head -->
+  <circle cx="60" cy="58" r="27" fill="url(#twave)"/>
+  <!-- Cheeks -->
+  <circle cx="44" cy="65" r="5" fill="#F58BAA" opacity="0.6"/>
+  <circle cx="76" cy="65" r="5" fill="#F58BAA" opacity="0.6"/>
+  <!-- Snout -->
+  <ellipse cx="60" cy="67" rx="12" ry="9" fill="#FFF6ED"/>
+  <!-- Nose & Mouth -->
+  <path d="M57 63 Q60 60 63 63 Q60 66 57 63 Z" fill="#523E5E"/>
+  <path d="M60 64.5 L60 69 Q57 71 55 70 M60 69 Q63 71 65 70" stroke="#523E5E" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Eyes with happy curve -->
+  <path d="M45 56 Q49 52 53 56" stroke="#35263D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M67 56 Q71 52 75 56" stroke="#35263D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Hair flower -->
+  <circle cx="78" cy="38" r="5" fill="#F58BAA"/>
+  <circle cx="78" cy="38" r="2" fill="#FFE59A"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="94" rx="21" ry="19" fill="url(#twave)"/>
+  <ellipse cx="60" cy="95" rx="13" ry="11" fill="#FFF6ED"/>
+  <!-- Left Paw (resting on hip) -->
+  <ellipse cx="40" cy="92" rx="7" ry="6" fill="url(#twave)"/>
+  <!-- Right Paw Waving Up -->
+  <g transform="rotate(-30 80 75)">
+    <ellipse cx="88" cy="70" rx="7" ry="12" fill="url(#twave)"/>
+    <circle cx="88" cy="64" r="4" fill="#FFD6DE"/>
+  </g>
+  <!-- Feet -->
+  <ellipse cx="45" cy="110" rx="9" ry="6" fill="url(#twave)"/>
+  <circle cx="45" cy="110" r="4" fill="#FFD6DE"/>
+  <ellipse cx="75" cy="110" rx="9" ry="6" fill="url(#twave)"/>
+  <circle cx="75" cy="110" r="4" fill="#FFD6DE"/>
+</svg>

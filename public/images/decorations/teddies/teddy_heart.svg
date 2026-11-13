@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <!-- Cute Teddy Bear with Party Hat holding a heart -->
+  <defs>
+    <radialGradient id="tgrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#EED5B7"/>
+      <stop offset="100%" stop-color="#C99E78"/>
+    </radialGradient>
+    <radialGradient id="earInner" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFD6DE"/>
+      <stop offset="100%" stop-color="#F5A3B7"/>
+    </radialGradient>
+  </defs>
+  <!-- Left Ear -->
+  <circle cx="36" cy="36" r="14" fill="url(#tgrad)"/>
+  <circle cx="36" cy="36" r="8" fill="url(#earInner)"/>
+  <!-- Right Ear -->
+  <circle cx="84" cy="36" r="14" fill="url(#tgrad)"/>
+  <circle cx="84" cy="36" r="8" fill="url(#earInner)"/>
+  <!-- Head -->
+  <circle cx="60" cy="58" r="28" fill="url(#tgrad)"/>
+  <!-- Cheeks -->
+  <circle cx="44" cy="64" r="5" fill="#F58BAA" opacity="0.6"/>
+  <circle cx="76" cy="64" r="5" fill="#F58BAA" opacity="0.6"/>
+  <!-- Snout -->
+  <ellipse cx="60" cy="66" rx="12" ry="9" fill="#FFF6ED"/>
+  <!-- Nose -->
+  <path d="M57 62 Q60 59 63 62 Q60 65 57 62 Z" fill="#523E5E"/>
+  <path d="M60 63.5 L60 68 Q57 70 55 69 M60 68 Q63 70 65 69" stroke="#523E5E" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="48" cy="55" r="3" fill="#35263D"/>
+  <circle cx="49" cy="54" r="1" fill="#FFFFFF"/>
+  <circle cx="72" cy="55" r="3" fill="#35263D"/>
+  <circle cx="73" cy="54" r="1" fill="#FFFFFF"/>
+  <!-- Party Hat -->
+  <polygon points="60,18 50,38 70,38" fill="#F58BAA"/>
+  <circle cx="60" cy="18" r="3" fill="#FFE59A"/>
+  <path d="M52 34 Q60 30 68 34" stroke="#FFF6E9" stroke-width="2" fill="none"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="94" rx="22" ry="20" fill="url(#tgrad)"/>
+  <!-- Belly -->
+  <ellipse cx="60" cy="95" rx="14" ry="12" fill="#FFF6ED"/>
+  <!-- Paws holding pink heart -->
+  <ellipse cx="40" cy="88" rx="7" ry="6" fill="url(#tgrad)"/>
+  <ellipse cx="80" cy="88" rx="7" ry="6" fill="url(#tgrad)"/>
+  <!-- Heart -->
+  <path d="M60 85 C56 78 48 78 48 85 C48 93 60 99 60 99 C60 99 72 93 72 85 C72 78 64 78 60 85 Z" fill="#E8436C"/>
+  <circle cx="55" cy="83" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+  <!-- Feet -->
+  <ellipse cx="44" cy="110" rx="9" ry="6" fill="url(#tgrad)"/>
+  <circle cx="44" cy="110" r="4" fill="#FFD6DE"/>
+  <ellipse cx="76" cy="110" rx="9" ry="6" fill="url(#tgrad)"/>
+  <circle cx="76" cy="110" r="4" fill="#FFD6DE"/>
+</svg>

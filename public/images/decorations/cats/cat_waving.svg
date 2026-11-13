@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <!-- Cute Waving Calico Cat with Birthday Bow -->
+  <defs>
+    <radialGradient id="catwhite" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF0E6"/>
+    </radialGradient>
+  </defs>
+  <!-- Body -->
+  <ellipse cx="60" cy="90" rx="22" ry="22" fill="url(#catwhite)"/>
+  <!-- Calico Spot on back -->
+  <path d="M42 85 Q46 72 58 75 Q52 92 42 85 Z" fill="#F8B195" opacity="0.8"/>
+  <!-- Head -->
+  <circle cx="60" cy="56" r="24" fill="url(#catwhite)"/>
+  <!-- Ears -->
+  <polygon points="40,42 36,24 52,34" fill="#F8B195"/>
+  <polygon points="41,40 38,28 49,35" fill="#FFD6DE"/>
+  <polygon points="68,34 84,24 80,42" fill="#35263D"/>
+  <polygon points="71,35 81,28 78,40" fill="#FFD6DE"/>
+  <!-- Eyes -->
+  <circle cx="50" cy="54" r="3.5" fill="#35263D"/>
+  <circle cx="51.5" cy="52.5" r="1.3" fill="#FFFFFF"/>
+  <circle cx="70" cy="54" r="3.5" fill="#35263D"/>
+  <circle cx="71.5" cy="52.5" r="1.3" fill="#FFFFFF"/>
+  <!-- Cheeks -->
+  <circle cx="43" cy="61" r="4.5" fill="#F58BAA" opacity="0.6"/>
+  <circle cx="77" cy="61" r="4.5" fill="#F58BAA" opacity="0.6"/>
+  <!-- Mouth & Whiskers -->
+  <path d="M57 60 Q60 58 63 60" fill="#F58BAA"/>
+  <path d="M60 60 Q57 64 54 62 M60 60 Q63 64 66 62" stroke="#523E5E" stroke-width="1.2" fill="none"/>
+  <line x1="32" y1="58" x2="42" y2="59" stroke="#B098A4" stroke-width="1.2"/>
+  <line x1="32" y1="63" x2="42" y2="62" stroke="#B098A4" stroke-width="1.2"/>
+  <line x1="78" y1="59" x2="88" y2="58" stroke="#B098A4" stroke-width="1.2"/>
+  <line x1="78" y1="62" x2="88" y2="63" stroke="#B098A4" stroke-width="1.2"/>
+  <!-- Left Paw Resting -->
+  <ellipse cx="44" cy="94" rx="6" ry="7" fill="url(#catwhite)"/>
+  <!-- Right Paw Waving -->
+  <ellipse cx="78" cy="74" rx="7" ry="11" fill="url(#catwhite)" transform="rotate(20 78 74)"/>
+  <circle cx="79" cy="69" r="3.5" fill="#FFD6DE"/>
+  <!-- Tail upright curled -->
+  <path d="M80 96 Q96 90 92 70 Q90 60 84 66" stroke="#FFF0E6" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

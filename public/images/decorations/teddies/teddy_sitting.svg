@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <!-- Cute Teddy Sitting with Ribbon Bow -->
+  <defs>
+    <radialGradient id="tsit" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#EED5B7"/>
+      <stop offset="100%" stop-color="#C99E78"/>
+    </radialGradient>
+  </defs>
+  <!-- Ears -->
+  <circle cx="38" cy="38" r="13" fill="url(#tsit)"/>
+  <circle cx="38" cy="38" r="7" fill="#FFD6DE"/>
+  <circle cx="82" cy="38" r="13" fill="url(#tsit)"/>
+  <circle cx="82" cy="38" r="7" fill="#FFD6DE"/>
+  <!-- Head -->
+  <circle cx="60" cy="58" r="26" fill="url(#tsit)"/>
+  <!-- Cheeks -->
+  <circle cx="45" cy="65" r="5" fill="#F58BAA" opacity="0.6"/>
+  <circle cx="75" cy="65" r="5" fill="#F58BAA" opacity="0.6"/>
+  <!-- Snout -->
+  <ellipse cx="60" cy="67" rx="11" ry="8" fill="#FFF6ED"/>
+  <path d="M57 63 Q60 61 63 63 Q60 66 57 63 Z" fill="#523E5E"/>
+  <path d="M60 64.5 L60 68" stroke="#523E5E" stroke-width="1.5"/>
+  <!-- Big Shiny Eyes -->
+  <circle cx="48" cy="55" r="4" fill="#35263D"/>
+  <circle cx="49.5" cy="53.5" r="1.5" fill="#FFFFFF"/>
+  <circle cx="72" cy="55" r="4" fill="#35263D"/>
+  <circle cx="73.5" cy="53.5" r="1.5" fill="#FFFFFF"/>
+  <!-- Ribbon Bowtie -->
+  <path d="M52 76 C46 72 44 80 50 82 Z" fill="#F58BAA"/>
+  <path d="M68 76 C74 72 76 80 70 82 Z" fill="#F58BAA"/>
+  <circle cx="60" cy="79" r="3.5" fill="#E8436C"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="95" rx="20" ry="18" fill="url(#tsit)"/>
+  <ellipse cx="60" cy="96" rx="12" ry="11" fill="#FFF6ED"/>
+  <!-- Front Paws -->
+  <ellipse cx="50" cy="92" rx="6" ry="7" fill="url(#tsit)"/>
+  <ellipse cx="70" cy="92" rx="6" ry="7" fill="url(#tsit)"/>
+  <!-- Feet pointing forward -->
+  <ellipse cx="38" cy="106" rx="9" ry="8" fill="url(#tsit)"/>
+  <circle cx="38" cy="106" r="5" fill="#FFD6DE"/>
+  <ellipse cx="82" cy="106" rx="9" ry="8" fill="url(#tsit)"/>
+  <circle cx="82" cy="106" r="5" fill="#FFD6DE"/>
+</svg>

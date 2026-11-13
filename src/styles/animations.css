@@ -1,0 +1,65 @@
+/* ═══ Keyframe Animations ═══ */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+@keyframes float-reverse {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(10px) rotate(-2deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 12px rgba(245,139,170,0.3); }
+  50% { box-shadow: 0 0 28px rgba(245,139,170,0.7), 0 0 40px rgba(255,229,154,0.4); }
+}
+
+@keyframes candle-flicker {
+  0%, 100% { transform: scaleY(1) scaleX(1); opacity: 1; }
+  25% { transform: scaleY(1.1) scaleX(0.9) rotate(-2deg); opacity: 0.9; }
+  50% { transform: scaleY(0.95) scaleX(1.05) rotate(1.5deg); opacity: 1; }
+  75% { transform: scaleY(1.05) scaleX(0.95); opacity: 0.95; }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.15); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.12); }
+  70% { transform: scale(1); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes ripple {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
+@keyframes confetti-fall {
+  0% { transform: translateY(-10px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Utility animation classes ─── */
+.anim-float { animation: float 4s ease-in-out infinite; }
+.anim-float-rev { animation: float-reverse 4.5s ease-in-out infinite; }
+.anim-glow { animation: pulse-glow 3s ease-in-out infinite; }
+.anim-flicker { animation: candle-flicker 1.2s ease-in-out infinite; transform-origin: bottom center; }
+.anim-twinkle { animation: twinkle 2.5s ease-in-out infinite; }
+.anim-heartbeat { animation: heartbeat 2s ease-in-out infinite; }
+.anim-spin-slow { animation: spin-slow 8s linear infinite; }

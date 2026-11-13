@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <!-- Cute Kitten Playing with a Pink Yarn Ball -->
+  <defs>
+    <radialGradient id="catgray" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EADBEE"/>
+    </radialGradient>
+  </defs>
+  <!-- Ball of Yarn -->
+  <circle cx="82" cy="85" r="14" fill="#F58BAA"/>
+  <path d="M74 80 Q82 85 88 80 M76 88 Q82 82 92 88 M78 92 Q85 96 90 90" stroke="#FFF0F5" stroke-width="1.8" fill="none"/>
+  <!-- Loose yarn thread -->
+  <path d="M82 99 Q75 105 60 102 Q48 100 42 106" stroke="#F58BAA" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Cat Body (pouncing pose) -->
+  <ellipse cx="45" cy="80" rx="20" ry="16" fill="url(#catgray)" transform="rotate(-15 45 80)"/>
+  <!-- Head -->
+  <circle cx="56" cy="62" r="18" fill="url(#catgray)"/>
+  <!-- Ears -->
+  <polygon points="44,52 40,36 52,44" fill="#EADBEE"/>
+  <polygon points="44,50 42,40 50,45" fill="#FFD6DE"/>
+  <polygon points="60,45 72,36 68,52" fill="#EADBEE"/>
+  <polygon points="61,46 68,40 66,50" fill="#FFD6DE"/>
+  <!-- Playful Big Eyes -->
+  <circle cx="52" cy="60" r="3.5" fill="#35263D"/>
+  <circle cx="53" cy="58.5" r="1.3" fill="#FFFFFF"/>
+  <circle cx="64" cy="60" r="3.5" fill="#35263D"/>
+  <circle cx="65" cy="58.5" r="1.3" fill="#FFFFFF"/>
+  <!-- Cheeks -->
+  <circle cx="48" cy="65" r="3" fill="#F58BAA" opacity="0.6"/>
+  <circle cx="68" cy="65" r="3" fill="#F58BAA" opacity="0.6"/>
+  <circle cx="58" cy="64" r="1.5" fill="#F58BAA"/>
+  <!-- Front Paws Reaching for Yarn -->
+  <ellipse cx="68" cy="74" rx="5" ry="8" fill="url(#catgray)" transform="rotate(40 68 74)"/>
+  <ellipse cx="73" cy="79" rx="5" ry="8" fill="url(#catgray)" transform="rotate(45 73 79)"/>
+  <!-- Back Tail Up -->
+  <path d="M28 82 Q18 70 24 55 Q28 48 30 54" stroke="#EADBEE" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>
